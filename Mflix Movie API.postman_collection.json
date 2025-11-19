@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "d4f0c862-a731-4bec-bc95-da079f81b347",
+		"name": "Mflix Movie API",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49499788",
+		"_collection_link": "https://www.postman.com/alexandrsudakov24-4124942/workspace/java-28-31/collection/49499788-d4f0c862-a731-4bec-bc95-da079f81b347?action=share&source=collection_link&creator=49499788"
+	},
+	"item": [
+		{
+			"name": "Все фильмы",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3010/movies/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3010",
+					"path": [
+						"movies",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "IMDb < Rotten Tomatoes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3010/movies/imdb-rotten",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3010",
+					"path": [
+						"movies",
+						"imdb-rotten"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Только русский язык",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3010/movies/OnlyRussian",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3010",
+					"path": [
+						"movies",
+						"OnlyRussian"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Боевик и Комедия",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3010/movies/action-comedy",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3010",
+					"path": [
+						"movies",
+						"action-comedy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Топ по наградам",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3010/movies/top-awards",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3010",
+					"path": [
+						"movies",
+						"top-awards"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Группировка по IMDb (2010)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3010/movies/imdb",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3010",
+					"path": [
+						"movies",
+						"imdb"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
